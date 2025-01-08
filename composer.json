@@ -1,5 +1,5 @@
 {
-    "name": "lameze/local_webinstall",
+    "name": "moodlehq/local_webinstall",
     "description": "A project to automate test Moodle's web install",
     "require": {
         "php": "^7.4 || ^8.0",

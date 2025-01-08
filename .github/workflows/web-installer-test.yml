@@ -19,7 +19,7 @@ jobs:
         os: [ubuntu-latest]
         php: [8.2, 8.3]
     steps:
-      - uses: moodlehq/moodle-webinstaller-test@main
+      - uses: lameze/moodle-webinstaller-test@puppeteer-fix
         with:
           repository: ${{ github.event.inputs.repository }}
           branch: ${{ github.event.inputs.branch }}

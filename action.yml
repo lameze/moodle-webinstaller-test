@@ -70,8 +70,8 @@ runs:
     - name: Clone Plugin repository
       uses: actions/checkout@v4
       with:
-        repository: moodlehq/moodle-webinstaller-test
-        ref: main
+        repository: lameze/moodle-webinstaller-test
+        ref: puppeteer-fix
         path: webinstall
 
     - name: Install Plugin Composer Dependencies
